@@ -1,6 +1,6 @@
 # Sublime Stuff O'mine
 
-### Here you gonna found:
+### Here you will find:
 * Snippets *by* **T.Mallon** 
 * IDE color theme *by* **T.Mallon**
 * Setting *by* **T.Mallon**
