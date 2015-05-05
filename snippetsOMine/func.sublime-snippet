@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+public function ${1:$SELECTION}()
+{
+    # code...
+}
+]]></content>
+        <!-- Optional: Tab trigger to activate the snippet -->
+        <tabTrigger>func</tabTrigger>
+        <!-- Optional: Scope the tab trigger will be active in -->
+        <scope>source.php</scope>
+        <!-- Optional: Description to show in the menu -->
+        <description>Create new empty function/method</description>
+    </snippet>

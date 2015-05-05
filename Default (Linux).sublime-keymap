@@ -1,0 +1,25 @@
+[
+    // move lines
+    { "keys": ["alt+shift+up"], "command": "swap_line_up" },
+    { "keys": ["alt+shift+down"], "command": "swap_line_down" },
+    // duplicate lines
+    { "keys": ["ctrl+shift+up"], "command": "duplicate_line" },
+    { "keys": ["ctrl+shift+down"], "command": "duplicate_line" },
+    // console
+    { "keys": ["ctrl+'"], "command": "show_panel", "args": {"panel": "console", "toggle": true} },
+    // go to line
+    { "keys": ["ctrl+l"], "command": "show_overlay", "args": {"overlay": "goto", "text": ":"} },
+    // to to method
+    { "keys": ["ctrl+o"], "command": "show_overlay", "args": {"overlay": "goto", "text": "@"} },
+    // formatt
+    {"keys": ["ctrl+shift+f"], "command": "reindent" , "args": { "single_line": false } },
+
+    { "keys": ["ctrl+space"], "command": "auto_complete" },
+    { "keys": ["ctrl+space"], "command": "replace_completion_with_auto_complete", "context":
+        [
+            { "key": "last_command", "operator": "equal", "operand": "insert_best_completion" },
+            { "key": "auto_complete_visible", "operator": "equal", "operand": false },
+            { "key": "setting.tab_completion", "operator": "equal", "operand": true }
+        ]
+    }
+]
