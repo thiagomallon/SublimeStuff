@@ -1,6 +1,13 @@
 <snippet>
     <content><![CDATA[
-extends PHPUnit_Framework_TestCase
+/**
+ * Created by Thiago Mallon
+ */        
+/**
+ * @author Thiago Mallon
+ * @group
+ */        
+class ${1} extends PHPUnit_Framework_TestCase
 {
 }
 ]]></content>
@@ -8,4 +15,6 @@ extends PHPUnit_Framework_TestCase
     <tabTrigger>ptsc</tabTrigger>
     <!-- Optional: Set a scope to limit where the snippet will trigger -->
     <scope>source.php</scope>
+            <!-- Optional: Description to show in the menu -->
+        <description>Create new test class</description>
 </snippet>

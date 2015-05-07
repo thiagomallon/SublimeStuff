@@ -1,6 +1,9 @@
 <snippet>
     <content><![CDATA[
-public function ${1:$SELECTION}()
+/**
+ *
+ */        
+public function ${1}()
 {
     # code...
 }
@@ -10,5 +13,5 @@ public function ${1:$SELECTION}()
         <!-- Optional: Scope the tab trigger will be active in -->
         <scope>source.php</scope>
         <!-- Optional: Description to show in the menu -->
-        <description>Create new empty function/method</description>
+        <description>Create new empty method</description>
     </snippet>
