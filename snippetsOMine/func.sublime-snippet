@@ -1,7 +1,7 @@
 <snippet>
     <content><![CDATA[
 /**
- *
+ * @return type description
  */        
 public function ${1}()
 {
