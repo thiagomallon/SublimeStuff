@@ -1,9 +1,9 @@
 <snippet>
     <content><![CDATA[
 /**
- * @var type $1 description 
+ * @var datatype \$$1 description 
  */        
-public ${1:$SELECTION};
+public \$${1:$SELECTION};
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
     <tabTrigger>pbpr</tabTrigger>
