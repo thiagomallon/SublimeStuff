@@ -2,14 +2,20 @@
     <content><![CDATA[
         
 /**
- * @package ${1}
- */
- namespace ${1:$SELECTION}
+ * Created by Thiago Mallon
+ */    
+
+/**
+ * @author Thiago Mallon <thiagomallon@gmail.com> 
+ */        
+class ${1}
+{
+}
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-    <tabTrigger>nmp</tabTrigger>
+    <tabTrigger>cls</tabTrigger>
     <!-- Optional: Set a scope to limit where the snippet will trigger -->
     <scope>source.php</scope>
     <!-- Optional: Description to show in the menu -->
-    <description>Create namespace with doc block</description>
+    <description>Create new test class</description>
 </snippet>
