@@ -1,13 +1,14 @@
 <snippet>
     <content><![CDATA[
 /**
- * @return datatype${1} description 
+ * @package ${1}
  */
+ namespace ${1:$SELECTION}
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-    <tabTrigger>mdoc</tabTrigger>
+    <tabTrigger>nmp</tabTrigger>
     <!-- Optional: Set a scope to limit where the snippet will trigger -->
     <scope>source.php</scope>
     <!-- Optional: Description to show in the menu -->
-    <description>Create method doc block</description>
+    <description>Create namespace with doc block</description>
 </snippet>
