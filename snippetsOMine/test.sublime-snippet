@@ -1,7 +1,7 @@
 <snippet>
     <content><![CDATA[
 /**
- *
+ * @return void
  * @covers 
  */        
 public function test${1}()
