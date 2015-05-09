@@ -8,8 +8,8 @@ public function get${1/(.*)/\u$1/}()
     return \$this->${1:$SELECTION};
 }
 
-/**
- * 
+/** 
+ * @return void
  */
 public function set${1/(.*)/\u$1/}(\$$1)
 {
