@@ -1,16 +1,24 @@
 <snippet>
     <content><![CDATA[
-        
-/**
- * Created by Thiago Mallon
- */    
 
 /**
- * @author Thiago Mallon <thiagomallon@gmail.com> 
- */        
-class ${1}
+ * Created by Thiago Mallon
+ */
+
+/**
+ * @package ${2}
+ */
+ namespace ${2:$SELECTION};
+
+/**
+ * Classe
+ * @author Thiago Mallon <thiagomallon@gmail.com>
+ */
+class ${1:$SELECTION}
 {
+    ${3}
 }
+
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
     <tabTrigger>cls</tabTrigger>

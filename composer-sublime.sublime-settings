@@ -15,7 +15,7 @@
      * Path to composer binary.
      * A relative path is relative to the composer.json file
      */
-    "composer_command":  "~/.composer/vendor/composer",
+    "composer_command":  "./composer.phar",
 
     // Extra arguments for composer install command
     "composer_install_extra" : ["-n", "-v"],
