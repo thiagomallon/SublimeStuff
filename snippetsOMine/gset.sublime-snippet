@@ -1,6 +1,7 @@
 <snippet>
     <content><![CDATA[
 /**
+ * Método
  * @return datatype description
  */        
 public function get${1/(.*)/\u$1/}()
@@ -9,7 +10,9 @@ public function get${1/(.*)/\u$1/}()
 }
 
 /** 
+ * Método
  * @return void
+ * @param
  */
 public function set${1/(.*)/\u$1/}(\$$1)
 {

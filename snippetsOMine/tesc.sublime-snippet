@@ -6,13 +6,14 @@
  */
 
  /**
- * @package 
+ * @package ${2/(\;)//(?1)/g}
  */
-namespace 
+namespace ${2:$SELECTION}
 
 /**
  * @author Thiago Mallon <thiagomallon@gmail.com>
  * @group ${1}
+ * @group ${2/(Test\\)(?:\w+)(\;)//(?1)(?2)/g}/${1}
  */        
 class ${1} extends \PHPUnit_Framework_TestCase
 {
