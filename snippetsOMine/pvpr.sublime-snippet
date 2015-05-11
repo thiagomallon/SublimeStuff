@@ -1,8 +1,9 @@
 <snippet>
     <content><![CDATA[
 /**
+ * Propriedade
  * @var datatype \$$1 description
- */        
+ */
 private \$${1:$SELECTION};
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
