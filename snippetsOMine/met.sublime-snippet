@@ -1,11 +1,12 @@
 <snippet>
     <content><![CDATA[
 /**
+ * Método
  * @return datatype description
- */        
+ */
 public function ${1}()
 {
-    # code...
+    ${2}
 }
 ]]></content>
         <!-- Optional: Tab trigger to activate the snippet -->
