@@ -2,11 +2,11 @@
     <content><![CDATA[
 /**
  * @return void
- * @covers 
- */        
-public function test${1}()
+ * @covers $2
+ */
+public function test$1()
 {
-    # code...
+    $3
 }
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->

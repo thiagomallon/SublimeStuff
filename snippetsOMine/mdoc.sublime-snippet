@@ -1,7 +1,8 @@
 <snippet>
     <content><![CDATA[
 /**
- * @return datatype${1} description 
+ * Método
+ * @return datatype $1 description
  */
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->

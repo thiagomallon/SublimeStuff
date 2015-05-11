@@ -3,21 +3,22 @@
 /**
  * Método
  * @return datatype description
- */        
+ */
 public function get${1/(.*)/\u$1/}()
 {
     return \$this->${1:$SELECTION};
 }
 
-/** 
+/**
  * Método
- * @return void
- * @param
+ * @return void description
+ * @param datatype \$$1 description
  */
 public function set${1/(.*)/\u$1/}(\$$1)
 {
     \$this->$1 = \$$1;
-}]]></content>
+}
+]]></content>
         <!-- Optional: Tab trigger to activate the snippet -->
         <tabTrigger>gset</tabTrigger>
         <!-- Optional: Scope the tab trigger will be active in -->

@@ -6,17 +6,17 @@
  */
 
 /**
- * @package ${2}
+ * @package $2
  */
- namespace ${2:$SELECTION};
+ namespace $2;
 
 /**
- * Classe
+ * Classe $1
  * @author Thiago Mallon <thiagomallon@gmail.com>
  */
-class ${1:$SELECTION}
+class $1
 {
-    ${3}
+    $3
 }
 
 ]]></content>
