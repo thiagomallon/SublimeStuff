@@ -1,6 +1,7 @@
 <snippet>
     <content><![CDATA[
 /**
+ * Método
  * @return void
  * @covers $2
  */
