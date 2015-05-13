@@ -22,5 +22,6 @@
             { "key": "setting.tab_completion", "operator": "equal", "operand": true }
         ]
     },
-    { "keys": ["ctrl+shift+alt+p"], "command": "simple_php_unit" }
+    { "keys": ["ctrl+shift+alt+p"], "command": "simple_php_unit" },
+    { "keys": ["ctrl+1"], "command": "toggle_side_bar" }
 ]
