@@ -1,0 +1,34 @@
+<snippet>
+    <content><![CDATA[
+
+/**
+ * Propriedade protected se faz objeto da classe $2
+ * @var object \$_$1
+ */
+protected \$_$1;
+
+/**
+ * Método sobrescrito do PHPUnit, chamado antes de cada método de teste
+ * @return void
+ */
+public function setUp()
+{
+    \$this->_${1:$SELECTION} = new \\${2:$SELECTION};
+}
+
+/**
+ * Método sobrescrito do PHPUnit, chamado após finalização de cada método de teste
+ * @return void
+ */
+public function tearDown()
+{
+    unset(\$this->_$1);
+}
+]]></content>
+        <!-- Optional: Tab trigger to activate the snippet -->
+        <tabTrigger>pum</tabTrigger>
+        <!-- Optional: Scope the tab trigger will be active in -->
+        <scope>source.php</scope>
+        <!-- Optional: Description to show in the menu -->
+        <description>Create object property, setUp() and tearDown() methods</description>
+    </snippet>
