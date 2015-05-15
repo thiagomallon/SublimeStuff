@@ -1,0 +1,28 @@
+<snippet>
+    <content><![CDATA[
+/**
+ * Método
+ * @return datatype description
+ */
+public static function get${1/(.*)/\u$1/}()
+{
+    return self::\$${1:$SELECTION};
+}
+
+/**
+ * Método
+ * @return void description
+ * @param datatype \$$1 description
+ */
+public static function set${1/(.*)/\u$1/}(\$$1)
+{
+    self::\$$1 = \$$1;
+}
+]]></content>
+        <!-- Optional: Tab trigger to activate the snippet -->
+        <tabTrigger>sgset</tabTrigger>
+        <!-- Optional: Scope the tab trigger will be active in -->
+        <scope>source.php</scope>
+        <!-- Optional: Description to show in the menu -->
+        <description>Create static getter and setter methods</description>
+    </snippet>
