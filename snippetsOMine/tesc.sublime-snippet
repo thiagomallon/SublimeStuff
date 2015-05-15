@@ -6,19 +6,19 @@
  */
 
  /**
-  * @package ${2/(\;)//(?1)/g}
+  * @package $2;
   */
 namespace $2
 
 /**
  * Classe $1
  * @author Thiago Mallon <thiagomallon@gmail.com>
- * @group $1
- * @group $3${2/(Test\\)(?:\w+)(\;)//(?1)(?2)/g}/${1}
+ * @group ${2/Test\\//g}
+ * @group ${2/Test\\//g}/$1
  */
 class $1 extends \PHPUnit_Framework_TestCase
 {
-    $4
+    $3
 }
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
