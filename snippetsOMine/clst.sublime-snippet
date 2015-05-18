@@ -4,9 +4,9 @@
  * Created by Thiago Mallon
  */
 
- /**
-  * @package $2
-  */
+/**
+ * @package $2
+ */
 namespace $2;
 
 /**
