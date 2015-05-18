@@ -1,6 +1,5 @@
 <snippet>
     <content><![CDATA[
-
 /**
  * Propriedade protected se faz objeto da classe $2
  * @var object \$_$1
@@ -26,7 +25,7 @@ public function tearDown()
 }
 ]]></content>
         <!-- Optional: Tab trigger to activate the snippet -->
-        <tabTrigger>pum</tabTrigger>
+        <tabTrigger>tfix</tabTrigger>
         <!-- Optional: Scope the tab trigger will be active in -->
         <scope>source.php</scope>
         <!-- Optional: Description to show in the menu -->

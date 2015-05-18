@@ -1,0 +1,19 @@
+<snippet>
+    <content><![CDATA[
+/**
+ * Método estático
+ * @return datatype description
+ * ${2/(\$\w+)/@param datatype $1 description/}
+ */
+public static function $1(${2:$SELECTION})
+{
+    $3
+}
+]]></content>
+        <!-- Optional: Tab trigger to activate the snippet -->
+        <tabTrigger>mets</tabTrigger>
+        <!-- Optional: Scope the tab trigger will be active in -->
+        <scope>source.php</scope>
+        <!-- Optional: Description to show in the menu -->
+        <description>Create new empty static method</description>
+    </snippet>

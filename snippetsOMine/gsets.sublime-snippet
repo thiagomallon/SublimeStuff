@@ -20,7 +20,7 @@ public static function set${1/(.*)/\u$1/}(\$$1)
 }
 ]]></content>
         <!-- Optional: Tab trigger to activate the snippet -->
-        <tabTrigger>sgset</tabTrigger>
+        <tabTrigger>gsets</tabTrigger>
         <!-- Optional: Scope the tab trigger will be active in -->
         <scope>source.php</scope>
         <!-- Optional: Description to show in the menu -->
