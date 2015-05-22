@@ -1,7 +1,7 @@
 <snippet>
     <content><![CDATA[
 /**
- * Método
+ * Method
  * @return datatype description
  */
 public static function get${1/(.*)/\u$1/}()
@@ -10,7 +10,7 @@ public static function get${1/(.*)/\u$1/}()
 }
 
 /**
- * Método
+ * Method
  * @return void description
  * @param datatype \$$1 description
  */

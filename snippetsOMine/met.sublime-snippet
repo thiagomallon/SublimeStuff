@@ -1,7 +1,7 @@
 <snippet>
     <content><![CDATA[
 /**
- * Método
+ * The $1 method
  * @return datatype description
  * ${2/(\$\w+)/@param datatype $1 description/}
  */

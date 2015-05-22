@@ -5,12 +5,12 @@
  * @return datatype description
  * ${2/(\$\w+)/@param datatype $1 description/}
  */
-abstract public function $1(${2:$SELECTION});
+public function $1(${2:$SELECTION});
 ]]></content>
         <!-- Optional: Tab trigger to activate the snippet -->
-        <tabTrigger>meta</tabTrigger>
+        <tabTrigger>meti</tabTrigger>
         <!-- Optional: Scope the tab trigger will be active in -->
         <scope>source.php</scope>
         <!-- Optional: Description to show in the menu -->
-        <description>Create new abstract method</description>
+        <description>Create new interface abstract method</description>
     </snippet>

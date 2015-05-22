@@ -10,7 +10,7 @@
 namespace $2;
 
 /**
- * Classe $1
+ * Class $1
  * @author Thiago Mallon <thiagomallon@gmail.com>
  */
 abstract class $1

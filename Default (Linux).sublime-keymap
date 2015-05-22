@@ -13,7 +13,7 @@
     { "keys": ["ctrl+o"], "command": "show_overlay", "args": {"overlay": "goto", "text": "@"} },
     // formatt
     {"keys": ["ctrl+shift+f"], "command": "reindent" , "args": { "single_line": false } },
-
+    // auto complete
     { "keys": ["ctrl+space"], "command": "auto_complete" },
     { "keys": ["ctrl+space"], "command": "replace_completion_with_auto_complete", "context":
         [
@@ -23,5 +23,8 @@
         ]
     },
     { "keys": ["ctrl+shift+alt+p"], "command": "simple_php_unit" },
-    { "keys": ["ctrl+1"], "command": "toggle_side_bar" }
+    // toggle side bar
+    { "keys": ["ctrl+1"], "command": "toggle_side_bar" },
+    // php-cs-fixer
+    { "keys": ["ctrl+shift+alt+f"], "command": "phpcs_fix_this_file", "args": {"tool": "Fixer"}}
 ]

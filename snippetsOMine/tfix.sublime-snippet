@@ -1,14 +1,14 @@
 <snippet>
     <content><![CDATA[
 /**
- * Propriedade protected se faz objeto da classe $2
+ * Protected property stores object instance
  * @var object \$_$1
  */
 protected \$_$1;
 
 /**
- * Método sobrescrito do PHPUnit, chamado antes de cada método de teste
- * @return void
+ * Sets up the fixture, for example, opens a network connection.
+ * This method is called before a test is executed.
  */
 public function setUp()
 {
@@ -16,8 +16,8 @@ public function setUp()
 }
 
 /**
- * Método sobrescrito do PHPUnit, chamado após finalização de cada método de teste
- * @return void
+ * Tears down the fixture, for example, closes a network connection.
+ * This method is called after a test is executed.
  */
 public function tearDown()
 {

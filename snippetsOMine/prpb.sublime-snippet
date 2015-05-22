@@ -1,7 +1,7 @@
 <snippet>
     <content><![CDATA[
 /**
- * Propriedade
+ * Property stores
  * @var datatype \$$1 description
  */
 public \$${1:$SELECTION};

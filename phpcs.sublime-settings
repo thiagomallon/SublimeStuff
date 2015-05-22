@@ -1,3 +1,17 @@
 {
     "show_debug": true,
+
+    // PHP-CS-Fixer settings
+
+    // Fix the issues on save
+    "php_cs_fixer_on_save": false,
+
+    // Show the quick panel
+    "php_cs_fixer_show_quick_panel": true,
+
+    // Path to where you have the php-cs-fixer installed
+    "php_cs_fixer_executable_path": "/home/yslave/.composer/vendor/fabpot/php-cs-fixer/php-cs-fixer",
+
+    // Additional arguments you can specify into the application
+    "php_cs_fixer_additional_args": {}
 }
