@@ -5,7 +5,7 @@
  */
 
 /**
- * @package $2
+ * @subpackage $2
  */
 namespace $2;
 

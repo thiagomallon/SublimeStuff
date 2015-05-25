@@ -1,28 +1,18 @@
 <snippet>
     <content><![CDATA[
 /**
- * Created by Thiago Mallon
+ * The test$1 method 
+ * @covers $2
  */
-
-/**
- * @subpackage $2
- */
-namespace $2;
-
-/**
- * Class $1
- * @author Thiago Mallon <thiagomallon@gmail.com>
- */
-abstract class $1
+public static function test$1()
 {
     $3
 }
-
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-    <tabTrigger>clsa</tabTrigger>
+    <tabTrigger>metts</tabTrigger>
     <!-- Optional: Set a scope to limit where the snippet will trigger -->
     <scope>source.php</scope>
     <!-- Optional: Description to show in the menu -->
-    <description>Create new test class</description>
+    <description>Create new static test method</description>
 </snippet>

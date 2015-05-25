@@ -1,8 +1,7 @@
 <snippet>
     <content><![CDATA[
 /**
- * The test$1 method
- * @return void
+ * The test$1 method 
  * @covers $2
  */
 public function test$1()
