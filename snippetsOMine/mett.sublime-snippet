@@ -3,6 +3,7 @@
 /**
  * The test$1 method 
  * @covers $2
+ * @return null
  */
 public function test$1()
 {

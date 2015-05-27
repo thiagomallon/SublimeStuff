@@ -25,9 +25,9 @@ public function tearDown()
 }
 ]]></content>
         <!-- Optional: Tab trigger to activate the snippet -->
-        <tabTrigger>tfix</tabTrigger>
+        <tabTrigger>fxt</tabTrigger>
         <!-- Optional: Scope the tab trigger will be active in -->
         <scope>source.php</scope>
         <!-- Optional: Description to show in the menu -->
-        <description>Create object property, setUp() and tearDown() methods</description>
+        <description>Create PHPUnit fixtures - object property, setUp() and tearDown() methods</description>
     </snippet>

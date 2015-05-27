@@ -2,8 +2,8 @@
     <content><![CDATA[
 /**
  * The $1 static method
- * @return datatype description
  * ${2/(\$\w+)/@param datatype $1 description/}
+ * @return datatype description
  */
 public static function $1(${2:$SELECTION})
 {

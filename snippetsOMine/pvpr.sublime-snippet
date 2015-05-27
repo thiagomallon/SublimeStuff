@@ -7,7 +7,7 @@
 private \$${1:$SELECTION};
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-    <tabTrigger>prpv</tabTrigger>
+    <tabTrigger>pvpr</tabTrigger>
     <!-- Optional: Set a scope to limit where the snippet will trigger -->
     <scope>source.php</scope>
     <!-- Optional: Description to show in the menu -->
