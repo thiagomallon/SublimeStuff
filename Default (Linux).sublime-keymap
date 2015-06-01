@@ -26,5 +26,7 @@
     // toggle side bar
     { "keys": ["ctrl+1"], "command": "toggle_side_bar" },
     // php-cs-fixer
-    { "keys": ["ctrl+shift+alt+f"], "command": "phpcs_fix_this_file", "args": {"tool": "Fixer"}}
+    { "keys": ["ctrl+shift+alt+f"], "command": "phpcs_fix_this_file", "args": {"tool": "Fixer"}},
+    // drop line
+    { "keys": ["ctrl+d"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Delete Line.sublime-macro"} },
 ]
