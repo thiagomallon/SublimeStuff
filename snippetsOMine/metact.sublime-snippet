@@ -1,0 +1,18 @@
+<snippet>
+    <content><![CDATA[
+/**
+ * The $1Action method
+ * @return datatype description
+ */
+public function $1Action()
+{
+    $3
+}
+]]></content>
+        <!-- Optional: Tab trigger to activate the snippet -->
+        <tabTrigger>metact</tabTrigger>
+        <!-- Optional: Scope the tab trigger will be active in -->
+        <scope>source.php</scope>
+        <!-- Optional: Description to show in the menu -->
+        <description>Create new empty action method</description>
+    </snippet>
