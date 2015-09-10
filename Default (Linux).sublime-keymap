@@ -12,7 +12,7 @@
     // to to method
     { "keys": ["ctrl+o"], "command": "show_overlay", "args": {"overlay": "goto", "text": "@"} },
     // formatt
-    {"keys": ["ctrl+shift+f"], "command": "reindent" , "args": { "single_line": false } },
+    {"keys": ["alt+shift+f"], "command": "reindent" , "args": { "single_line": false } },
     // auto complete
     { "keys": ["ctrl+space"], "command": "auto_complete" },
     { "keys": ["ctrl+space"], "command": "replace_completion_with_auto_complete", "context":
@@ -26,8 +26,7 @@
     // toggle side bar
     { "keys": ["ctrl+1"], "command": "toggle_side_bar" },
     // php-cs-fixer
-    { "keys": ["ctrl+shift+alt+f"], "command": "phpcs_fix_this_file", "args": {"tool": "Fixer"}},
+    { "keys": ["ctrl+alt+shift+f"], "command": "phpcs_fix_this_file", "args": {"tool": "Fixer"}},
     // drop line
-    // { "keys": ["ctrl+shift+d"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Delete Line.sublime-macro"} },
     { "keys": ["ctrl+e"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Delete Line.sublime-macro"} },
 ]
