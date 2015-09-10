@@ -3,17 +3,17 @@
 /**
  * The $1 method
  * ${2/(\$\w+)/@param datatype $1 description/}
- * @return datatype description
+ * @return $3 $4
  */
 public function $1(${2:$SELECTION})
 {
-    $3
+    $5
 }
 ]]></content>
         <!-- Optional: Tab trigger to activate the snippet -->
-        <tabTrigger>met</tabTrigger>
+        <tabTrigger>pbm</tabTrigger>
         <!-- Optional: Scope the tab trigger will be active in -->
         <scope>source.php</scope>
         <!-- Optional: Description to show in the menu -->
-        <description>Create new empty method</description>
+        <description>Create new empty public method</description>
     </snippet>

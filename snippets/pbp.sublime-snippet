@@ -1,19 +1,15 @@
 <snippet>
     <content><![CDATA[
 /**
- * The test$1 method
- * @covers $2
- * @return null
+ * Property stores
+ * @var datatype \$$1 description
  */
-public function test$1()
-{
-    $3
-}
+public \$${1:$SELECTION};
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-    <tabTrigger>mett</tabTrigger>
+    <tabTrigger>pbp</tabTrigger>
     <!-- Optional: Set a scope to limit where the snippet will trigger -->
     <scope>source.php</scope>
     <!-- Optional: Description to show in the menu -->
-    <description>Create new test method</description>
+    <description>Create a public property</description>
 </snippet>

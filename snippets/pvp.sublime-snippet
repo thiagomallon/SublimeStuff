@@ -4,12 +4,12 @@
  * Property stores
  * @var datatype \$$1 description
  */
-public \$${1:$SELECTION};
+private \$${1:$SELECTION};
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-    <tabTrigger>pbpr</tabTrigger>
+    <tabTrigger>pvp</tabTrigger>
     <!-- Optional: Set a scope to limit where the snippet will trigger -->
     <scope>source.php</scope>
     <!-- Optional: Description to show in the menu -->
-    <description>Create a public property</description>
+    <description>Create a private property</description>
 </snippet>
