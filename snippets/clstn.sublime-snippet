@@ -1,0 +1,30 @@
+<snippet>
+    <content><![CDATA[
+/**
+ * Created by Thiago Mallon
+ */
+
+/**
+ * @subpackage $2
+ */
+namespace $2;
+
+/**
+ * Class $1
+ * @author Thiago Mallon <thiagomallon@gmail.com>
+ * @group ${2/(?:Test\\)?(\w+)\\/(?2$2\/)/g}
+ * @group ${2/(?:Test\\)?(\w+)\\/(?2$2\/)/g}/$1
+ */
+class $1 extends \PHPUnit_Framework_TestCase
+{
+    $3
+}
+
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>clstn</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.php</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description>Create new test class with namespace</description>
+</snippet>

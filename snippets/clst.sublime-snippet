@@ -5,11 +5,6 @@
  */
 
 /**
- * @subpackage $2
- */
-namespace $2;
-
-/**
  * Class $1
  * @author Thiago Mallon <thiagomallon@gmail.com>
  * @group ${2/(?:Test\\)?(\w+)\\/(?2$2\/)/g}
