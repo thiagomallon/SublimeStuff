@@ -7,8 +7,6 @@
 /**
  * Class $1
  * @author Thiago Mallon <thiagomallon@gmail.com>
- * @group ${2/(?:Test\\)?(\w+)\\/(?2$2\/)/g}
- * @group ${2/(?:Test\\)?(\w+)\\/(?2$2\/)/g}/$1
  */
 class $1 extends \PHPUnit_Framework_TestCase
 {
