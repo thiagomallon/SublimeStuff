@@ -1,0 +1,16 @@
+<snippet>
+    <content><![CDATA[
+/**
+ * The $1 abstract method
+ * ${2/(\$\w+)/@param datatype $1 description/}
+ * @return datatype description
+ */
+public function $1(${2:$SELECTION});
+]]></content>
+        <!-- Optional: Tab trigger to activate the snippet -->
+        <tabTrigger>pbpm</tabTrigger>
+        <!-- Optional: Scope the tab trigger will be active in -->
+        <scope>source.php</scope>
+        <!-- Optional: Description to show in the menu -->
+        <description>Create new abstract method</description>
+    </snippet>

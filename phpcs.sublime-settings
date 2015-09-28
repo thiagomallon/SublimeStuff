@@ -4,7 +4,7 @@
     // PHP-CS-Fixer settings
 
     // Fix the issues on save
-    "php_cs_fixer_on_save": true,
+    "php_cs_fixer_on_save": false,
 
     // Show the quick panel
     "php_cs_fixer_show_quick_panel": true,
