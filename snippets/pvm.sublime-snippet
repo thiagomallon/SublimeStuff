@@ -1,0 +1,19 @@
+<snippet>
+    <content><![CDATA[
+/**
+ * The $1 method
+ * ${2/(\$\w+)/@param datatype $1 description/}
+ * @return $3 $4
+ */
+private function $1(${2:$SELECTION})
+{
+    $5
+}
+]]></content>
+        <!-- Optional: Tab trigger to activate the snippet -->
+        <tabTrigger>pvm</tabTrigger>
+        <!-- Optional: Scope the tab trigger will be active in -->
+        <scope>source.php</scope>
+        <!-- Optional: Description to show in the menu -->
+        <description>Create new empty private method</description>
+    </snippet>
