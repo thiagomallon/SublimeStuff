@@ -1,13 +1,6 @@
 {
- "cmd": ["g++", "-std=c++0x", "${file}", "-o", "${file_path}/${file_base_name}"],
- "file_regex": "^(..[^:]*):([0-9]+):?([0-9]+)?:? (.*)$",
- "working_dir": "${file_path}",
- "selector": "source.c, source.c++",
- "variants":
- [
-   {
-     "name": "Run",
-     "cmd":["bash", "-c", "g++ -std=c++0x '${file}' -o '${file_path}/${file_base_name}' && '${file_path}/${file_base_name}'"]
-   }
- ]
+    "cmd": ["g++ -o ${file_base_name} ${file} `pkg-config --libs --cflags gtk+-3.0` && ./${file_base_name}"],
+    "file_regex": "^(..[^:]*):([0-9]+):?([0-9]+)?:? (.*)$",
+    "working_dir": "${file_path}",
+    "shell":true
 }
