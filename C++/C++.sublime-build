@@ -1,5 +1,5 @@
-{
-    "cmd": ["g++ -o ${file_base_name} ${file} `pkg-config --libs --cflags gtk+-3.0` && ./${file_base_name}"],
+{    
+    "cmd": ["gcc `pkg-config --cflags gtk+-3.0` -o ${file_base_name} ${file} `pkg-config --libs gtk+-3.0` && ./${file_base_name}"],
     "file_regex": "^(..[^:]*):([0-9]+):?([0-9]+)?:? (.*)$",
     "working_dir": "${file_path}",
     "shell":true
