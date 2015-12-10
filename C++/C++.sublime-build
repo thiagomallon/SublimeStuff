@@ -2,23 +2,17 @@
     // simple compiles file
     // "cmd": ["gcc ${file} -o ${file_path}/${file_base_name} && ./${file_base_name}"],
 
-    // compiles GTK apps
-    // "cmd": ["gcc `pkg-config --cflags gtk+-3.0` -o ${file_base_name} ${file} `pkg-config --libs gtk+-3.0` && ./${file_base_name}"],
-
     // compiles file
     // "cmd": ["gcc ${file} -o ${file_path}/../build/src/${file_base_name} && ../build/src/./${file_base_name}"],    
 
-    // compiles CUnit test files
-    // "cmd": ["gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF'${file_path}/../build/tests/test_${file_base_name}.d' -MT'${file_path}/../build/tests/test_${file_base_name}.o' -o '${file_path}/../build/tests/test_${file_base_name}.o' '${file_path}/../tests/test_${file_base_name}.c' && gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF'${file_path}/../build/src/${file_base_name}.d' -MT'${file_path}/../build/src/${file_base_name}.o' -o '${file_path}/../build/src/${file_base_name}.o' '${file_base_name}.c' && gcc  -o 'test_${file_base_name}' ./${file_path}/../build/tests/test_${file_base_name}.o ./${file_path}/../build/src/${file_base_name}.o -lcunit && ${file_path}/../build/tests/./test_${file_base_name}"],
-    
-    // compiles CUnit test files
-    // "cmd": ["gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF'${file_path}/../build/tests/test_${file_base_name}.d' -MT'${file_path}/../build/tests/test_${file_base_name}.o' -o '${file_path}/../build/tests/test_${file_base_name}.o' '${file_path}/../tests/test_${file_base_name}.c' && 
-    //     gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF'${file_path}/../build/src/${file_base_name}.d' -MT'${file_path}/../build/src/${file_base_name}.o' -o '${file_path}/../build/src/${file_base_name}.o' '${file_base_name}.c' && 
-    //     gcc  -o '${file_path}/../build/tests/test_${file_base_name}' ${file_path}/../build/tests/test_${file_base_name}.o ${file_path}/../build/src/${file_base_name}.o -lcunit &&
-    //     ./${file_base_name}"],
+    // compiles GTK apps
+    // "cmd": ["gcc `pkg-config --cflags gtk+-3.0` -o ${file_base_name} ${file} `pkg-config --libs gtk+-3.0` && ./${file_base_name}"],
 
-    // compiles CUnit test files
-    "cmd": ["gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF'../build/tests/test_${file_base_name}.d' -MT'../build/tests/test_${file_base_name}.o' -o '../build/tests/test_${file_base_name}.o' '../tests/test_${file_base_name}.c' && gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF'../build/src/${file_base_name}.d' -MT'../build/src/${file_base_name}.o' -o '../build/src/${file_base_name}.o' '${file_base_name}.c' && gcc  -o '../build/tests/cunit_${file_base_name}' ../build/tests/test_${file_base_name}.o ../build/src/${file_base_name}.o -lcunit && ../build/tests/./cunit_${file_base_name}"],
+    // compiles CUnit test files (from src/ folder)
+    // "cmd": ["gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF'../build/tests/test_${file_base_name}.d' -MT'../build/tests/test_${file_base_name}.o' -o '../build/tests/test_${file_base_name}.o' '../tests/test_${file_base_name}.c' && gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF'../build/src/${file_base_name}.d' -MT'../build/src/${file_base_name}.o' -o '../build/src/${file_base_name}.o' '${file_base_name}.c' && gcc  -o '../build/tests/cunit_${file_base_name}' ../build/tests/test_${file_base_name}.o ../build/src/${file_base_name}.o -lcunit && ../build/tests/./cunit_${file_base_name}"],
+
+    // compiles CUnit test files (from src/ folder)
+    "cmd": ["gcc -o ../build/tests/cunit_${file_base_name} ../tests/test_${file_base_name}.c ${file} -lcunit && ../build/tests/./cunit_${file_base_name}"],
 
     "file_regex": "^(..[^:]*):([0-9]+):?([0-9]+)?:? (.*)$",
     "working_dir": "${file_path}",
