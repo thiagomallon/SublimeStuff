@@ -17,7 +17,6 @@
     //     gcc  -o '${file_path}/../build/tests/test_${file_base_name}' ${file_path}/../build/tests/test_${file_base_name}.o ${file_path}/../build/src/${file_base_name}.o -lcunit &&
     //     ./${file_base_name}"],
 
-
     // compiles CUnit test files
     "cmd": ["gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF'../build/tests/test_${file_base_name}.d' -MT'../build/tests/test_${file_base_name}.o' -o '../build/tests/test_${file_base_name}.o' '../tests/test_${file_base_name}.c' && gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF'../build/src/${file_base_name}.d' -MT'../build/src/${file_base_name}.o' -o '../build/src/${file_base_name}.o' '${file_base_name}.c' && gcc  -o '../build/tests/cunit_${file_base_name}' ../build/tests/test_${file_base_name}.o ../build/src/${file_base_name}.o -lcunit && ../build/tests/./cunit_${file_base_name}"],
 
