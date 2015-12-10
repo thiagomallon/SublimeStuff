@@ -1,6 +1,29 @@
 {    
-    "cmd": ["gcc `pkg-config --cflags gtk+-3.0` -o ${file_base_name} ${file} `pkg-config --libs gtk+-3.0` && ./${file_base_name}"],
+    // simple compiles file
+    // "cmd": ["gcc ${file} -o ${file_path}/${file_base_name} && ./${file_base_name}"],
+
+    // compiles file
+    "cmd": ["gcc ${file} -o ${file_path}/../build/${file_base_name} && ../build/./${file_base_name}"],
+    
+    // compiles file and generates test file/path
+    // "cmd": ["gcc ${file} -o ${file_path}/${file_base_name} && touch ../tests/test_${file_base_name}.c && ./${file_base_name}"],
+
+    // compiles GTK apps
+    // "cmd": ["gcc `pkg-config --cflags gtk+-3.0` -o ${file_base_name} ${file} `pkg-config --libs gtk+-3.0` && ./${file_base_name}"],
+    
+    // compiles CUnit test files
+    // "cmd": ["gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF'Build/tests/test_demo.d' -MT'Build/tests/test_demo.o' -o 'Build/tests/test_demo.o' 'tests/test_demo.c' && 
+    //     gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF'Build/src/demo.d' -MT'Build/src/demo.o' -o 'Build/src/demo.o' 'src/demo.c' && 
+    //     gcc  -o 'Certified_demo' ./Build/tests/test_demo.o ./Build/src/demo.o -lcunit &&
+    //     ./${file_base_name}"],
+
+    // compiles CUnit test files
+    // "cmd": ["gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF'Build/tests/test_${file_base_name}.d' -MT'Build/tests/test_${file_base_name}.o' -o 'Build/tests/test_${file_base_name}.o' 'tests/test_${file_base_name}.c' && 
+    //     gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF'Build/src/${file_base_name}.d' -MT'Build/src/${file_base_name}.o' -o 'Build/src/${file_base_name}.o' 'src/${file_base_name}.c' && 
+    //     gcc  -o 'test_${file_base_name}' ./Build/tests/test_${file_base_name}.o ./Build/src/${file_base_name}.o -lcunit &&
+    //     ./${file_base_name}"],
+
     "file_regex": "^(..[^:]*):([0-9]+):?([0-9]+)?:? (.*)$",
     "working_dir": "${file_path}",
-    "shell":true
+    "shell": true
 }
